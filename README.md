@@ -6,8 +6,9 @@ I might use this in the future, so it's mostly a personal backup. No warranty wh
 
 ## Installation
 
-If you want to try it, first install [ts-node](https://github.com/TypeStrong/ts-node) and then run:
+If you want to try it, first install [ts-node](https://github.com/TypeStrong/ts-node) and [Yarn](https://yarnpkg.com/) then run:
 
 ```
-ts-node src/server.ts
+$ yarn
+$ ts-node src/server.ts
 ```
