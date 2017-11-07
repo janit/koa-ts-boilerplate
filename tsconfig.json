@@ -2,6 +2,17 @@
   "compilerOptions": {
     "target": "es2015",
     "module": "commonjs",
-    "strict": false
-  }
+    "strict": false,
+    "jsx": "react",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
 }

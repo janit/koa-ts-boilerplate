@@ -11,7 +11,7 @@ export const AppRoutes: [Route] = [
         path: '/hello/:name',
         method: 'get',
         action: helloAction,
-    },
+    }
 ]
 
 interface Route {

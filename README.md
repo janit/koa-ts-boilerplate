@@ -1,8 +1,10 @@
+# Boilerplate for Koa, TypeScript and React for server side templating
 
+A simple boilerplate that integrates the Koa framework with TypeScript and [React.js for server side templating](https://medium.com/@velmu/react-is-gaining-ground-as-a-universal-server-side-templating-system-26fe02eebe12).
 
-# Boilerplate for Koa, TypeScript and tagged ES6 template literals for server side templates
+I might use this in the future, so it's mostly a personal backup. No warranty whatsoever.
 
-Just some testing on a server rendered views with Koa, TypeScript and hyperx for server side rendered ES6 template literals for templating.. I don't really know if this is useful.
+## Installation
 
 If you want to try it, first install [ts-node](https://github.com/TypeStrong/ts-node) and then run:
 
