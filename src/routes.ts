@@ -1,5 +1,6 @@
 import { helloAction } from './controllers/hello'
 import { landingAction } from './controllers/landing'
+import { contentAction } from './controllers/content'
 
 export const AppRoutes: [Route] = [
     {
@@ -11,6 +12,11 @@ export const AppRoutes: [Route] = [
         path: '/hello/:name',
         method: 'get',
         action: helloAction,
+    },
+    {
+        path: '/content',
+        method: 'get',
+        action: contentAction
     }
 ]
 

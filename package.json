@@ -9,9 +9,11 @@
     "@types/node": "^8.0.50",
     "@types/react": "^16.0.20",
     "@types/react-dom": "^16.0.2",
+    "graphql-client": "^2.0.0",
     "koa": "^2.3.0",
     "koa-router": "^7.2.1",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "react-render-html": "^0.5.2"
   }
 }
