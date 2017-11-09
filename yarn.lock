@@ -5,8 +5,8 @@
   resolved "https://registry.yarnpkg.com/@types/accepts/-/accepts-1.3.3.tgz#6da8c6e3144566feec7ce2176828f1c47523f1ab"
 
 "@types/body-parser@*":
-  version "1.16.7"
-  resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.16.7.tgz#455fc23fd0ddaaeda6cd6cbb653558276e5920fa"
+  version "1.16.8"
+  resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.16.8.tgz#687ec34140624a3bec2b1a8ea9268478ae8f3be3"
   dependencies:
     "@types/express" "*"
     "@types/node" "*"
@@ -41,8 +41,8 @@
     "@types/serve-static" "*"
 
 "@types/http-assert@*":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@types/http-assert/-/http-assert-1.2.1.tgz#94331490c7ccea7a233a2ec0da3282d72b968e92"
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@types/http-assert/-/http-assert-1.2.2.tgz#17dfe5a82184a8898935d96fe2eaedd37d22d9a4"
 
 "@types/keygrip@*":
   version "1.0.1"
@@ -53,14 +53,14 @@
   resolved "https://registry.yarnpkg.com/@types/koa-compose/-/koa-compose-3.2.2.tgz#dc106e000bbf92a3ac900f756df47344887ee847"
 
 "@types/koa-router@^7.0.23":
-  version "7.0.23"
-  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.0.23.tgz#aa0309d28e9e1cd5723b0350841380dd749e8400"
+  version "7.0.24"
+  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.0.24.tgz#24fbba35f9a7edffadfd57c96963f8421a85576b"
   dependencies:
     "@types/koa" "*"
 
 "@types/koa@*", "@types/koa@^2.0.39":
-  version "2.0.39"
-  resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.0.39.tgz#45ba1249d8849b9b0ff8c1d6d2f80b0838b89ffa"
+  version "2.0.40"
+  resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.0.40.tgz#d09f5c2e58b68932580b747f2ff763299ce9cc7f"
   dependencies:
     "@types/accepts" "*"
     "@types/cookies" "*"
@@ -78,19 +78,19 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.50.tgz#dc545448e128c88c4eec7cd64025fcc3b7604541"
 
 "@types/react-dom@^16.0.2":
-  version "16.0.2"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.0.2.tgz#2da9de21fd83f0140b64794ad9c47930230aedae"
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.0.3.tgz#8accad7eabdab4cca3e1a56f5ccb57de2da0ff64"
   dependencies:
     "@types/node" "*"
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^16.0.20":
-  version "16.0.21"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.21.tgz#1f4313594f784a477521a0795c46e7b832051ef3"
+  version "16.0.22"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.22.tgz#19ad106e124aceebd2b4d430a278d55413ee8759"
 
 "@types/serve-static@*":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.13.0.tgz#2ef359d8d5982bc011a7a8fa36016e629e8b7635"
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.13.1.tgz#1d2801fa635d274cd97d4ec07e26b21b44127492"
   dependencies:
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
@@ -384,8 +384,8 @@ prop-types@^15.6.0:
     object-assign "^4.1.1"
 
 react-dom@^16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.0.0.tgz#9cc3079c3dcd70d4c6e01b84aab2a7e34c303f58"
+  version "16.1.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.1.0.tgz#ab6fd2a285096f388aeba51919a573d06c9bdde4"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
@@ -393,8 +393,8 @@ react-dom@^16.0.0:
     prop-types "^15.6.0"
 
 react@^16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.0.0.tgz#ce7df8f1941b036f02b2cca9dbd0cb1f0e855e2d"
+  version "16.1.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.1.0.tgz#1c2bdac3c17fe7ee9282fa35aca6cc36387903e1"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"

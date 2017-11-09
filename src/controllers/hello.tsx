@@ -4,5 +4,6 @@ import * as ReactDOMServer from "react-dom/server";
 import Hello from "../views/hello";
 
 export async function helloAction(context: Context) {
-  context.body = ReactDOMServer.renderToString(<Hello name={context.params.name} />);
+  context.set('content-type','text/html');
+  context.body = ReactDOMServer.renderToStaticNodeStream(<Hello name={context.params.name} />);
 }

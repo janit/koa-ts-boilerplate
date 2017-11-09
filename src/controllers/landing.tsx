@@ -4,5 +4,6 @@ import * as ReactDOMServer from "react-dom/server";
 import Landing from "../views/landing";
 
 export async function landingAction(context: Context) {
-  context.body = ReactDOMServer.renderToString(<Landing />);
+  context.set('content-type','text/html');
+  context.body = ReactDOMServer.renderToStaticNodeStream(<Landing />);
 }
