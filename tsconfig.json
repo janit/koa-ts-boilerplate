@@ -6,7 +6,7 @@
     "jsx": "react",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "outDir": "dist"
+    "outDir": "build"
   },
   "include": [
     "src/**/*"

@@ -19,7 +19,7 @@ $ yarn run dev
 
 ### Production
 
-For production environments you need to first compile the TypeScript source to JavaScript and then run the app:
+For production environments you need to first compile the TypeScript source to JavaScript (to `build/`) and then run the app:
 
 ```
 $ yarn run build
