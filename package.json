@@ -2,6 +2,11 @@
   "name": "koa-ts-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "NODE_ENV=production node dist/index.js"
+  },
   "license": "MIT",
   "dependencies": {
     "@types/koa": "^2.0.39",

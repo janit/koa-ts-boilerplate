@@ -8,9 +8,22 @@ I might use this in the future, so it's mostly a personal backup. No warranty wh
 
 ## Installation
 
-If you want to try it, first install [ts-node](https://github.com/TypeStrong/ts-node) and [Yarn](https://yarnpkg.com/) then run:
+If you want to try it for development, first install [Nodemon](https://nodemon.io/), [ts-node](https://github.com/TypeStrong/ts-node) and [Yarn](https://yarnpkg.com/).
+
+Install dependencies from NPM with yarn and then run nodemon (which in turn restarts ts-node on changes):
 
 ```
 $ yarn
-$ ts-node src/server.ts
+$ yarn run dev
 ```
+
+### Production
+
+For production environments you need to first compile the TypeScript source to JavaScript and then run the app:
+
+```
+$ yarn run build
+$ yarn run start
+```
+
+Note: Please note that when running in production, the environment variable `NODE_ENV` should be set to `production` as this improves [the performance Server Side Rendering of React](https://malloc.fi/performance-cost-of-server-side-rendered-react-node-js) significantly.
