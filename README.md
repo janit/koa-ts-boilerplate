@@ -26,4 +26,4 @@ $ yarn run build
 $ yarn run start
 ```
 
-Note: Please note that when running in production, the environment variable `NODE_ENV` should be set to `production` as this improves [the performance Server Side Rendering of React](https://malloc.fi/performance-cost-of-server-side-rendered-react-node-js) significantly.
+Note: Please note that when running in production, the environment variable `NODE_ENV` should be set to `production` as this improves [the performance of Server Side Rendered React.js](https://malloc.fi/performance-cost-of-server-side-rendered-react-node-js) significantly.
