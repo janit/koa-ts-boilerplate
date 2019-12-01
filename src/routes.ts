@@ -1,7 +1,7 @@
 import { helloAction } from './controllers/hello'
 import { landingAction } from './controllers/landing'
 
-export const AppRoutes: [Route] = [
+export const AppRoutes: Route[] = [
     {
         path: '/',
         method: 'get',
